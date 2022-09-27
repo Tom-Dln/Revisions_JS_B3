@@ -1,370 +1,370 @@
 {
     "parents": [
-      {
-        "id": 1,
-        "name": "Lucas Guerrero",
-        "age": 24,
-        "childId": 1
-      },
-      {
-        "id": 2,
-        "name": "Horne Klein",
-        "age": 40,
-        "childId": 2
-      },
-      {
-        "id": 3,
-        "name": "Trina Bradford",
-        "age": 27,
-        "childId": 3
-      },
-      {
-        "id": 4,
-        "name": "Pate Oneil",
-        "age": 30,
-        "childId": 4
-      },
-      {
-        "id": 5,
-        "name": "Earline Fowler",
-        "age": 48,
-        "childId": 5
-      },
-      {
-        "id": 6,
-        "name": "Clay Singleton",
-        "age": 47,
-        "childId": 6
-      },
-      {
-        "id": 7,
-        "name": "Dollie Bass",
-        "age": 39,
-        "childId": 7
-      },
-      {
-        "id": 8,
-        "name": "Casey Slater",
-        "age": 31,
-        "childId": 8
-      },
-      {
-        "id": 9,
-        "name": "Callie Chavez",
-        "age": 30,
-        "childId": 9
-      },
-      {
-        "id": 10,
-        "name": "Alta Grimes",
-        "age": 40,
-        "childId": 10
-      },
-      {
-        "id": 11,
-        "name": "Eunice Mayer",
-        "age": 30,
-        "childId": 11
-      },
-      {
-        "id": 12,
-        "name": "Hanson Fitzgerald",
-        "age": 49,
-        "childId": 12
-      },
-      {
-        "id": 13,
-        "name": "Deirdre Hayden",
-        "age": 37,
-        "childId": 13
-      },
-      {
-        "id": 14,
-        "name": "Mcdowell Rogers",
-        "age": 32,
-        "childId": 14
-      },
-      {
-        "id": 15,
-        "name": "Hardin Atkinson",
-        "age": 45,
-        "childId": 15
-      },
-      {
-        "id": 16,
-        "name": "Mcmillan Powers",
-        "age": 24,
-        "childId": 16
-      },
-      {
-        "id": 17,
-        "name": "Dyer Blanchard",
-        "age": 21,
-        "childId": 17
-      },
-      {
-        "id": 18,
-        "name": "Padilla Hampton",
-        "age": 40,
-        "childId": 18
-      },
-      {
-        "id": 19,
-        "name": "Iva Gibbs",
-        "age": 27,
-        "childId": 19
-      },
-      {
-        "id": 20,
-        "name": "Robles Watson",
-        "age": 33,
-        "childId": 20
-      }
+        {
+            "id": 1,
+            "name": "Lucas Guerrero",
+            "age": 24,
+            "childId": 1
+        },
+        {
+            "id": 2,
+            "name": "Horne Klein",
+            "age": 40,
+            "childId": 2
+        },
+        {
+            "id": 3,
+            "name": "Trina Bradford",
+            "age": 27,
+            "childId": 3
+        },
+        {
+            "id": 4,
+            "name": "Pate Oneil",
+            "age": 30,
+            "childId": 4
+        },
+        {
+            "id": 5,
+            "name": "Earline Fowler",
+            "age": 48,
+            "childId": 5
+        },
+        {
+            "id": 6,
+            "name": "Clay Singleton",
+            "age": 47,
+            "childId": 6
+        },
+        {
+            "id": 7,
+            "name": "Dollie Bass",
+            "age": 39,
+            "childId": 7
+        },
+        {
+            "id": 8,
+            "name": "Casey Slater",
+            "age": 31,
+            "childId": 8
+        },
+        {
+            "id": 9,
+            "name": "Callie Chavez",
+            "age": 30,
+            "childId": 9
+        },
+        {
+            "id": 10,
+            "name": "Alta Grimes",
+            "age": 40,
+            "childId": 10
+        },
+        {
+            "id": 11,
+            "name": "Eunice Mayer",
+            "age": 30,
+            "childId": 11
+        },
+        {
+            "id": 12,
+            "name": "Hanson Fitzgerald",
+            "age": 49,
+            "childId": 12
+        },
+        {
+            "id": 13,
+            "name": "Deirdre Hayden",
+            "age": 37,
+            "childId": 13
+        },
+        {
+            "id": 14,
+            "name": "Mcdowell Rogers",
+            "age": 32,
+            "childId": 14
+        },
+        {
+            "id": 15,
+            "name": "Hardin Atkinson",
+            "age": 45,
+            "childId": 15
+        },
+        {
+            "id": 16,
+            "name": "Mcmillan Powers",
+            "age": 24,
+            "childId": 16
+        },
+        {
+            "id": 17,
+            "name": "Dyer Blanchard",
+            "age": 21,
+            "childId": 17
+        },
+        {
+            "id": 18,
+            "name": "Padilla Hampton",
+            "age": 40,
+            "childId": 18
+        },
+        {
+            "id": 19,
+            "name": "Iva Gibbs",
+            "age": 27,
+            "childId": 19
+        },
+        {
+            "id": 20,
+            "name": "Robles Watson",
+            "age": 33,
+            "childId": 20
+        }
     ],
     "child": [
-      {
-        "id": 1,
-        "name": "Melisa Coleman",
-        "age": 16,
-        "level": "level",
-        "lessons": " 25 23 26 22 25  "
-      },
-      {
-        "id": 2,
-        "name": "Sweet Boyle",
-        "age": 12,
-        "level": "level",
-        "lessons": " 5 18 5 10 7  "
-      },
-      {
-        "id": 3,
-        "name": "Good Sandoval",
-        "age": 10,
-        "level": "level",
-        "lessons": " 23 9 25 7 20  "
-      },
-      {
-        "id": 4,
-        "name": "Wells York",
-        "age": 12,
-        "level": "level",
-        "lessons": " 9 5 8 20 18  "
-      },
-      {
-        "id": 5,
-        "name": "Lolita Huff",
-        "age": 16,
-        "level": "level",
-        "lessons": " 13 30 27 25 0  "
-      },
-      {
-        "id": 6,
-        "name": "Thompson Hatfield",
-        "age": 10,
-        "level": "level",
-        "lessons": " 5 18 16 13 2  "
-      },
-      {
-        "id": 7,
-        "name": "Lamb Dalton",
-        "age": 16,
-        "level": "level",
-        "lessons": " 20 8 27 17 2  "
-      },
-      {
-        "id": 8,
-        "name": "Brittney Schwartz",
-        "age": 13,
-        "level": "level",
-        "lessons": " 18 24 19 26 13  "
-      },
-      {
-        "id": 9,
-        "name": "Nicole Miranda",
-        "age": 12,
-        "level": "level",
-        "lessons": " 1 2 2 20 26  "
-      },
-      {
-        "id": 10,
-        "name": "Page Saunders",
-        "age": 10,
-        "level": "level",
-        "lessons": " 13 13 29 7 24  "
-      },
-      {
-        "id": 11,
-        "name": "Loretta Baird",
-        "age": 13,
-        "level": "level",
-        "lessons": " 1 19 17 14 6  "
-      },
-      {
-        "id": 12,
-        "name": "Cecile Sheppard",
-        "age": 13,
-        "level": "level",
-        "lessons": " 12 16 30 1 12  "
-      },
-      {
-        "id": 13,
-        "name": "Janna Dawson",
-        "age": 10,
-        "level": "level",
-        "lessons": " 2 8 12 12 2  "
-      },
-      {
-        "id": 14,
-        "name": "Iris Casey",
-        "age": 16,
-        "level": "level",
-        "lessons": " 10 10 27 5 21  "
-      },
-      {
-        "id": 15,
-        "name": "James Kim",
-        "age": 13,
-        "level": "level",
-        "lessons": " 5 13 24 0 15  "
-      },
-      {
-        "id": 16,
-        "name": "Mejia Herring",
-        "age": 14,
-        "level": "level",
-        "lessons": " 0 8 25 19 25  "
-      },
-      {
-        "id": 17,
-        "name": "Shannon Albert",
-        "age": 11,
-        "level": "level",
-        "lessons": " 8 20 9 1 18  "
-      },
-      {
-        "id": 18,
-        "name": "Murray Meadows",
-        "age": 14,
-        "level": "level",
-        "lessons": " 24 3 28 16 14  "
-      },
-      {
-        "id": 19,
-        "name": "Morgan Meyers",
-        "age": 14,
-        "level": "level",
-        "lessons": " 9 30 16 8 24  "
-      },
-      {
-        "id": 20,
-        "name": "Roxanne Hebert",
-        "age": 12,
-        "level": "level",
-        "lessons": " 3 21 20 15 25  "
-      }
+        {
+            "id": 1,
+            "name": "Melisa Coleman",
+            "age": 16,
+            "level": "Seconde",
+            "lessons": [1,5,7]
+        },
+        {
+            "id": 2,
+            "name": "Sweet Boyle",
+            "age": 12,
+            "level": "Seconde",
+            "lessons": [3,5,9]
+        },
+        {
+            "id": 3,
+            "name": "Good Sandoval",
+            "age": 10,
+            "level": "Seconde",
+            "lessons": [1,7,10]
+        },
+        {
+            "id": 4,
+            "name": "Wells York",
+            "age": 12,
+            "level": "Seconde",
+            "lessons": [5,7,9]
+        },
+        {
+            "id": 5,
+            "name": "Lolita Huff",
+            "age": 16,
+            "level": "Terminale",
+            "lessons": [6,4,2]
+        },
+        {
+            "id": 6,
+            "name": "Thompson Hatfield",
+            "age": 10,
+            "level": "Première",
+            "lessons": [8,2,1]
+        },
+        {
+            "id": 7,
+            "name": "Lamb Dalton",
+            "age": 16,
+            "level": "Terminale",
+            "lessons": [8,6,7]
+        },
+        {
+            "id": 8,
+            "name": "Brittney Schwartz",
+            "age": 13,
+            "level": "Première",
+            "lessons": [10,4,3]
+        },
+        {
+            "id": 9,
+            "name": "Nicole Miranda",
+            "age": 12,
+            "level": "Terminale",
+            "lessons": [5,6,8]
+        },
+        {
+            "id": 10,
+            "name": "Page Saunders",
+            "age": 10,
+            "level": "Première",
+            "lessons": [1,6,7]
+        },
+        {
+            "id": 11,
+            "name": "Loretta Baird",
+            "age": 13,
+            "level": "Terminale",
+            "lessons": [2,3,7]
+        },
+        {
+            "id": 12,
+            "name": "Cecile Sheppard",
+            "age": 13,
+            "level": "Première",
+            "lessons": [6,4,8]
+        },
+        {
+            "id": 13,
+            "name": "Janna Dawson",
+            "age": 10,
+            "level": "Seconde",
+            "lessons": [3,9,10]
+        },
+        {
+            "id": 14,
+            "name": "Iris Casey",
+            "age": 16,
+            "level": "Terminale",
+            "lessons": [2,5,7]
+        },
+        {
+            "id": 15,
+            "name": "James Kim",
+            "age": 13,
+            "level": "Terminale",
+            "lessons": [1,9,8]
+        },
+        {
+            "id": 16,
+            "name": "Mejia Herring",
+            "age": 14,
+            "level": "Première",
+            "lessons": [2,5,7]
+        },
+        {
+            "id": 17,
+            "name": "Shannon Albert",
+            "age": 11,
+            "level": "Première",
+            "lessons": [3,5,4]
+        },
+        {
+            "id": 18,
+            "name": "Murray Meadows",
+            "age": 14,
+            "level": "Première",
+            "lessons": [6,4,7]
+        },
+        {
+            "id": 19,
+            "name": "Morgan Meyers",
+            "age": 14,
+            "level": "Seconde",
+            "lessons": [3,5,7]
+        },
+        {
+            "id": 20,
+            "name": "Roxanne Hebert",
+            "age": 12,
+            "level": "Seconde",
+            "lessons": [1,5,7]
+        }
     ],
     "lessons": [
-      {
-        "id": 1,
-        "name": "cour techno",
-        "heure": "heure",
-        "teacherId": 1
-      },
-      {
-        "id": 2,
-        "name": "cour techno",
-        "heure": "heure",
-        "teacherId": 2
-      },
-      {
-        "id": 3,
-        "name": "cour techno",
-        "heure": "heure",
-        "teacherId": 3
-      },
-      {
-        "id": 4,
-        "name": "cour techno",
-        "heure": "heure",
-        "teacherId": 4
-      },
-      {
-        "id": 5,
-        "name": "cour techno",
-        "heure": "heure",
-        "teacherId": 5
-      },
-      {
-        "id": 6,
-        "name": "cour techno",
-        "heure": "heure",
-        "teacherId": 6
-      },
-      {
-        "id": 7,
-        "name": "cour techno",
-        "heure": "heure",
-        "teacherId": 7
-      },
-      {
-        "id": 8,
-        "name": "cour techno",
-        "heure": "heure",
-        "teacherId": 8
-      },
-      {
-        "id": 9,
-        "name": "cour techno",
-        "heure": "heure",
-        "teacherId": 9
-      },
-      {
-        "id": 10,
-        "name": "cour techno",
-        "heure": "heure",
-        "teacherId": 10
-      }
+        {
+            "id": 1,
+            "name": "cour techno",
+            "heure": "heure",
+            "teacherId": 1
+        },
+        {
+            "id": 2,
+            "name": "cour techno",
+            "heure": "heure",
+            "teacherId": 2
+        },
+        {
+            "id": 3,
+            "name": "cour techno",
+            "heure": "heure",
+            "teacherId": 3
+        },
+        {
+            "id": 4,
+            "name": "cour techno",
+            "heure": "heure",
+            "teacherId": 4
+        },
+        {
+            "id": 5,
+            "name": "cour techno",
+            "heure": "heure",
+            "teacherId": 5
+        },
+        {
+            "id": 6,
+            "name": "cour techno",
+            "heure": "heure",
+            "teacherId": 6
+        },
+        {
+            "id": 7,
+            "name": "cour techno",
+            "heure": "heure",
+            "teacherId": 7
+        },
+        {
+            "id": 8,
+            "name": "cour techno",
+            "heure": "heure",
+            "teacherId": 8
+        },
+        {
+            "id": 9,
+            "name": "cour techno",
+            "heure": "heure",
+            "teacherId": 9
+        },
+        {
+            "id": 10,
+            "name": "cour techno",
+            "heure": "heure",
+            "teacherId": 10
+        }
     ],
     "teachers": [
-      {
-        "id": 1,
-        "name": "Shepherd Riddle"
-      },
-      {
-        "id": 2,
-        "name": "Kristy Mathis"
-      },
-      {
-        "id": 3,
-        "name": "Travis Harrison"
-      },
-      {
-        "id": 4,
-        "name": "Blackwell Barron"
-      },
-      {
-        "id": 5,
-        "name": "Tyson Mcguire"
-      },
-      {
-        "id": 6,
-        "name": "Barrera Perkins"
-      },
-      {
-        "id": 7,
-        "name": "Clark Pickett"
-      },
-      {
-        "id": 8,
-        "name": "Bell Page"
-      },
-      {
-        "id": 9,
-        "name": "Lela Conrad"
-      },
-      {
-        "id": 10,
-        "name": "Carr Sharp"
-      }
+        {
+            "id": 1,
+            "name": "Shepherd Riddle"
+        },
+        {
+            "id": 2,
+            "name": "Kristy Mathis"
+        },
+        {
+            "id": 3,
+            "name": "Travis Harrison"
+        },
+        {
+            "id": 4,
+            "name": "Blackwell Barron"
+        },
+        {
+            "id": 5,
+            "name": "Tyson Mcguire"
+        },
+        {
+            "id": 6,
+            "name": "Barrera Perkins"
+        },
+        {
+            "id": 7,
+            "name": "Clark Pickett"
+        },
+        {
+            "id": 8,
+            "name": "Bell Page"
+        },
+        {
+            "id": 9,
+            "name": "Lela Conrad"
+        },
+        {
+            "id": 10,
+            "name": "Carr Sharp"
+        }
     ]
-  }
+}
