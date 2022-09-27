@@ -117,10 +117,9 @@ function getAStudent(student_id) {
 
 
 
-
 // console.log("\n \n \n \n");
 
 // console.log(getInfosAboutJSON("lessons"));
 
 // console.log("\n \n \n \n");
-//module.exports = getInfosAbout;
+module.exports = getInfosAboutJSON("child");
