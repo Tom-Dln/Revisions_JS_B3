@@ -9,7 +9,7 @@ const lessonsController = require('../controllers/lessons');
 const router = express.Router();
 
 // Declaring Routes
-router.get('#', homeController);
+router.get('/', homeController);
 router.get('/student', studentController);
 router.get('/students', studentsController);
 router.get('/parent', parentController);
