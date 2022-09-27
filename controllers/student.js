@@ -1,9 +1,13 @@
-const getStudent = require('../models/student');
+// const getStudent = require('../models/student');
 const getAStudent = require('../models/getJson');
 
 
 const student = (req, res) => {
-  res.render('student', {student: getAStudent, student_id: 1});
+  the_student = getAStudent.find(element => element.id == 11);
+  console.log(the_student);
+  res.render('student', {the_student: the_student});
 }
+
+
 
 module.exports = student;

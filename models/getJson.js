@@ -122,4 +122,4 @@ function getAStudent(student_id) {
 // console.log(getInfosAboutJSON("lessons"));
 
 // console.log("\n \n \n \n");
-module.exports = getAStudent(5);
+module.exports = getInfosAboutJSON("child");
