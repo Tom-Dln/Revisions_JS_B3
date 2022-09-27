@@ -4,9 +4,11 @@ const router = require('./routes/routes');
 const exphbs = require('express-handlebars');
 
 const app = express();
-const port = 3000;
 
 require('dotenv').config();
+
+
+console.log(process.env.PORT);
 
 //Config
 app.engine('handlebars', exphbs.engine());
@@ -16,6 +18,6 @@ app.use(morgan('tiny'));
 app.use(express.static('public'));
 app.use(router);
 
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${process.env.VARIABLE_ONE}`);
+app.listen(process.env.PORT, () => {
+  console.log(`Example app listening at http://localhost:${process.env.PORT}`);
 })
