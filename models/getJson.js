@@ -1,6 +1,6 @@
 // import fonction fs
 const fs = require('fs');
-const { lessons } = require('../db');
+const { lessons, student } = require('../db');
 
 //get les infos demander dans la BDD.json
 //export 
@@ -106,6 +106,11 @@ function ToMap(params) {
 
 
 
+function getAStudent(student_id) {
+    the_student = getInfosAboutJSON("child").find(element => element.id == student_id);
+    console.log(the_student);
+    return(the_student);
+}
 
 
 
@@ -113,9 +118,9 @@ function ToMap(params) {
 
 
 
-console.log("\n \n \n \n");
+// console.log("\n \n \n \n");
 
-console.log(getInfosAboutJSON("lessons"));
+// console.log(getInfosAboutJSON("lessons"));
 
-console.log("\n \n \n \n");
+// console.log("\n \n \n \n");
 //module.exports = getInfosAbout;
