@@ -17,5 +17,5 @@ app.use(express.static('public'));
 app.use(router);
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${process.env.VARIABLE_ONE}`);
+  console.log(`Example app listening at http://localhost:${process.env.PORT}`);
 })
