@@ -1,11 +1,31 @@
 <h1>
-  Students view
+  List des élèves
 </h1>
 
 <ul>
   {{#each students}}
-    <li>
-      {{this}}
-    </li>
+  <li>
+    {{this}}
+  </li>
   {{/each}}
 </ul>
+
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Prénom/Nom</th>
+      <th scope="col">Age</th>
+      <th scope="col">Classe</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      {{#each child.name}}
+      <th scope="col">
+        {{this}}
+      </th>
+      {{/each}}
+    </tr>
+  </tbody>
+</table>

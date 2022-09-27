@@ -1,5 +1,5 @@
 <h1>
-  Parents view
+  Liste des Parents
 </h1>
 
 <ul>
@@ -9,3 +9,23 @@
     </li>
   {{/each}}
 </ul>
+
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Prénom/Nom</th>
+      <th scope="col">Age</th>
+      <th scope="col">Classe</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      {{#each parents}}
+      <th scope="col">
+        {{this}}
+      </th>
+      {{/each}}
+    </tr>
+  </tbody>
+</table>
