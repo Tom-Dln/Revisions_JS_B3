@@ -1,11 +1,14 @@
-<h1>
-    Student view
+<h1 class="text-center">
+    {{this.student.name}}
 </h1>
 
-<ul>
-    {{#each student}}
-    <li>
-        {{this}}
-    </li>
-    {{/each}}
-</ul>
+<div class="d-flex justify-content-center">
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <p class="card-text">Âge : {{student.age}} ans</p>
+            <p class="card-text">Classe : {{student.level}}</p>
+            <p class="card-text">Cours Suivants : {{student.lessons}}</p>
+            <p class="card-text">Parent : <a href="/parent/{{student.parent.id}}">{{student.parent.name}}</a></p>
+        </div>
+    </div>
+</div>

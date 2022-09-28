@@ -47,7 +47,7 @@ app.get("/students", (req, res) => {
 });
 
 app.get("/parent/:id", (req, res) => {
-  res.render("parent", { parent: getParent(req.params.id) });
+  res.render("parent", { parent: getParent(req.params.id)});
 });
 
 app.get("/parents", (req, res) => {
