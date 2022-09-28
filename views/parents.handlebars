@@ -9,7 +9,7 @@
             <th scope="col">Prénom/Nom</th>
             <th scope="col">Age</th>
             <th scope="col">Enfants</th>
-            <th scope="col">Redirection</th>
+            <th scope="col">Détails</th>
         </tr>
     </thead>
     <tbody>
@@ -22,10 +22,10 @@
                 {{this.age}} ans
             </td>
             <td scope="col">
-                {{this.childId}}
+                <a href="/student/{{this.childId}}">Voir</a>
             </td>
             <td scope="col">
-                <a href="/parent/{{this.id}}">Redirection</a>
+                <a href="/parent/{{this.id}}">Voir</a>
             </td>
         </tr>
         {{/each}}

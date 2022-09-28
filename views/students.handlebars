@@ -9,7 +9,8 @@
             <th scope="col">Prénom/Nom</th>
             <th scope="col">Age</th>
             <th scope="col">Classe</th>
-            <th scope="col">Redirection</th>
+            <th scope="col">Cours</th>
+            <th scope="col">Détails</th>
         </tr>
     </thead>
     <tbody>
@@ -24,8 +25,11 @@
             <td scope="col">
                 {{this.level}}
             </td>
+            <td scope="col">
+                {{this.lessons}}
+            </td>
             <td>
-                <a href="/student/{{this.id}}">Redirection</a>
+                <a href="/student/{{this.id}}">Voir</a>
             </td>
         </tr>
         {{/each}}

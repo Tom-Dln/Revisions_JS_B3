@@ -127,244 +127,192 @@
             "name": "Melisa Coleman",
             "age": 16,
             "level": "Seconde",
-            "lessons": [1,5,7]
+            "lessons": "Mathématiques, Anglais, Français"
         },
         {
             "id": 2,
             "name": "Sweet Boyle",
             "age": 12,
             "level": "Seconde",
-            "lessons": [3,5,9]
+            "lessons": "Technologie, Anglais, Art-plastique"
         },
         {
             "id": 3,
             "name": "Good Sandoval",
             "age": 10,
             "level": "Seconde",
-            "lessons": [1,7,10]
+            "lessons": "Art-plastique, Histoire-géographie, SVT"
         },
         {
             "id": 4,
             "name": "Wells York",
             "age": 12,
             "level": "Seconde",
-            "lessons": [5,7,9]
+            "lessons": "SVT, Technologie, Anglais"
         },
         {
             "id": 5,
             "name": "Lolita Huff",
             "age": 16,
             "level": "Terminale",
-            "lessons": [6,4,2]
+            "lessons": "Physique-chimie, Sport, Mathématiques"
         },
         {
             "id": 6,
             "name": "Thompson Hatfield",
             "age": 10,
             "level": "Première",
-            "lessons": [8,2,1]
+            "lessons": "Anglais, SVT, Français"
         },
         {
             "id": 7,
             "name": "Lamb Dalton",
             "age": 16,
             "level": "Terminale",
-            "lessons": [8,6,7]
+            "lessons": "Mathématiques, Français, Histoire-géographie"
         },
         {
             "id": 8,
             "name": "Brittney Schwartz",
             "age": 13,
             "level": "Première",
-            "lessons": [10,4,3]
+            "lessons": "SVT, Physique-chimie, Mathématiques"
         },
         {
             "id": 9,
             "name": "Nicole Miranda",
             "age": 12,
             "level": "Terminale",
-            "lessons": [5,6,8]
+            "lessons": "Mathématiques, Anglais, Français"
         },
         {
             "id": 10,
             "name": "Page Saunders",
             "age": 10,
             "level": "Première",
-            "lessons": [1,6,7]
+            "lessons": "Français, Sport, Histoire-géographie"
         },
         {
             "id": 11,
             "name": "Loretta Baird",
             "age": 13,
             "level": "Terminale",
-            "lessons": [2,3,7]
+            "lessons": "Mathématiques, Sport, Français"
         },
         {
             "id": 12,
             "name": "Cecile Sheppard",
             "age": 13,
             "level": "Première",
-            "lessons": [6,4,8]
+            "lessons": "Anglais, Allemand, Art-plastique"
         },
         {
             "id": 13,
             "name": "Janna Dawson",
             "age": 10,
             "level": "Seconde",
-            "lessons": [3,9,10]
+            "lessons": "Anglais, Sport, Art-plastique"
         },
         {
             "id": 14,
             "name": "Iris Casey",
             "age": 16,
             "level": "Terminale",
-            "lessons": [2,5,7]
+            "lessons": "Allemand, Physique-chimie, Technologie"
         },
         {
             "id": 15,
             "name": "James Kim",
             "age": 13,
             "level": "Terminale",
-            "lessons": [1,9,8]
+            "lessons": "SVT, Anglais, Français"
         },
         {
             "id": 16,
             "name": "Mejia Herring",
             "age": 14,
             "level": "Première",
-            "lessons": [2,5,7]
+            "lessons": "Physique-chimie, Technologie, Mathématiques"
         },
         {
             "id": 17,
             "name": "Shannon Albert",
             "age": 11,
             "level": "Première",
-            "lessons": [3,5,4]
+            "lessons": "Anglais, Allemand, Sport"
         },
         {
             "id": 18,
             "name": "Murray Meadows",
             "age": 14,
             "level": "Première",
-            "lessons": [6,4,7]
+            "lessons": "Art-plastique, Technologie, Physique-chimie"
         },
         {
             "id": 19,
             "name": "Morgan Meyers",
             "age": 14,
             "level": "Seconde",
-            "lessons": [3,5,7]
+            "lessons": "Sport, Allemand, Français"
         },
         {
             "id": 20,
             "name": "Roxanne Hebert",
             "age": 12,
             "level": "Seconde",
-            "lessons": [1,5,7]
+            "lessons": "Physique-chimie, Art-plastique, Allemand"
         }
     ],
     "lessons": [
         {
             "id": 1,
-            "name": "Techno",
-            "heure": "heure",
-            "teacherId": 1
+            "name": "Technologie",
+            "duration": "2h"
         },
         {
             "id": 2,
             "name": "Histoire-géographie",
-            "heure": "heure",
-            "teacherId": 2
+            "duration": "3h"
         },
         {
             "id": 3,
             "name": "Mathématiques",
-            "heure": "heure",
-            "teacherId": 3
+            "duration": "3h"
         },
         {
             "id": 4,
             "name": "Anglais",
-            "heure": "heure",
-            "teacherId": 4
+            "duration": "1h"
         },
         {
             "id": 5,
             "name": "Physique-chimie",
-            "heure": "heure",
-            "teacherId": 5
+            "duration": "2h"
         },
         {
             "id": 6,
             "name": "Sport",
-            "heure": "heure",
-            "teacherId": 6
+            "duration": "4h"
         },
         {
             "id": 7,
             "name": "Français",
-            "heure": "heure",
-            "teacherId": 7
+            "duration": "1h"
         },
         {
             "id": 8,
             "name": "Art-plastique",
-            "heure": "heure",
-            "teacherId": 8
+            "duration": "4h"
         },
         {
             "id": 9,
             "name": "Allemand",
-            "heure": "heure",
-            "teacherId": 9
+            "duration": "1h"
         },
         {
             "id": 10,
             "name": "SVT",
-            "heure": "heure",
-            "teacherId": 10
-        }
-    ],
-    "teachers": [
-        {
-            "id": 1,
-            "name": "Shepherd Riddle"
-        },
-        {
-            "id": 2,
-            "name": "Kristy Mathis"
-        },
-        {
-            "id": 3,
-            "name": "Travis Harrison"
-        },
-        {
-            "id": 4,
-            "name": "Blackwell Barron"
-        },
-        {
-            "id": 5,
-            "name": "Tyson Mcguire"
-        },
-        {
-            "id": 6,
-            "name": "Barrera Perkins"
-        },
-        {
-            "id": 7,
-            "name": "Clark Pickett"
-        },
-        {
-            "id": 8,
-            "name": "Bell Page"
-        },
-        {
-            "id": 9,
-            "name": "Lela Conrad"
-        },
-        {
-            "id": 10,
-            "name": "Carr Sharp"
+            "duration": "2h"
         }
     ]
 }
