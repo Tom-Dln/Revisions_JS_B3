@@ -1,5 +1,5 @@
-const db = require('../db.js');
+import db from "../db.js";
 
 const getStudent = db.student;
 
-module.exports = getStudent;
+export default getStudent;

@@ -1,9 +1,9 @@
-const fs = require('fs');
+import fs from "fs";
 
-let BDD = fs.readFileSync('./BDD.json')
-let lessons = JSON.parse(BDD).lessons;
+const getLessons = () => {
+  let BDD = fs.readFileSync("./BDD.json");
+  let lessons = JSON.parse(BDD).lessons;
+  return lessons;
+};
 
-// ----- DEBUG -----
-// console.log(lessons);
-
-module.exports = lessons;
+export default getLessons;

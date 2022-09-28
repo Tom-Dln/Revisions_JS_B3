@@ -1,7 +1,8 @@
-const getLessons = require('../models/lessons');
+import getLessons from "../models/lessons.js";
 
-const lessons = (req, res) => {
-  res.render('lessons', {lessons: getLessons});
-}
+const lessonsController = (req, res) => {
+  res.render("lessons", { lessons: getLessons });
+};
 
-module.exports = lessons;
+// module.exports = lessons;
+export default lessonsController;
