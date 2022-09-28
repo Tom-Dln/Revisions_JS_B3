@@ -4,121 +4,181 @@
             "id": 1,
             "name": "Lucas Guerrero",
             "age": 24,
-            "childId": 1
+            "student": {
+                "name": "Melisa Coleman",
+                "id": 1
+            }
         },
         {
             "id": 2,
             "name": "Horne Klein",
             "age": 40,
-            "childId": 2
+            "student": {
+                "name": "Sweet Boyle",
+                "id": 2
+            }
         },
         {
             "id": 3,
             "name": "Trina Bradford",
             "age": 27,
-            "childId": 3
+            "student": {
+                "name": "Good Sandoval",
+                "id": 3
+            }
         },
         {
             "id": 4,
             "name": "Pate Oneil",
             "age": 30,
-            "childId": 4
+            "student": {
+                "name": "Wells York",
+                "id": 4
+            }
         },
         {
             "id": 5,
             "name": "Earline Fowler",
             "age": 48,
-            "childId": 5
+            "student": {
+                "name": "Lolita Huff",
+                "id": 5
+            }
         },
         {
             "id": 6,
             "name": "Clay Singleton",
             "age": 47,
-            "childId": 6
+            "student": {
+                "name": "Thompson Hatfield",
+                "id": 6
+            }
         },
         {
             "id": 7,
             "name": "Dollie Bass",
             "age": 39,
-            "childId": 7
+            "student": {
+                "name": "Lamb Dalton",
+                "id": 7
+            }
         },
         {
             "id": 8,
             "name": "Casey Slater",
             "age": 31,
-            "childId": 8
+            "student": {
+                "name": "Brittney Schwartz",
+                "id": 8
+            }
         },
         {
             "id": 9,
             "name": "Callie Chavez",
             "age": 30,
-            "childId": 9
+            "student": {
+                "name": "Nicole Miranda",
+                "id": 9
+            }
         },
         {
             "id": 10,
             "name": "Alta Grimes",
             "age": 40,
-            "childId": 10
+            "student": {
+                "name": "Page Saunders",
+                "id": 10
+            }
         },
         {
             "id": 11,
             "name": "Eunice Mayer",
             "age": 30,
-            "childId": 11
+            "student": {
+                "name": "Loretta Baird",
+                "id": 11
+            }
         },
         {
             "id": 12,
             "name": "Hanson Fitzgerald",
             "age": 49,
-            "childId": 12
+            "student": {
+                "name": "Cecile Sheppard",
+                "id": 12
+            }
         },
         {
             "id": 13,
             "name": "Deirdre Hayden",
             "age": 37,
-            "childId": 13
+            "student": {
+                "name": "Janna Dawson",
+                "id": 13
+            }
         },
         {
             "id": 14,
             "name": "Mcdowell Rogers",
             "age": 32,
-            "childId": 14
+            "student": {
+                "name": "Iris Casey",
+                "id": 14
+            }
         },
         {
             "id": 15,
             "name": "Hardin Atkinson",
             "age": 45,
-            "childId": 15
+            "student": {
+                "name": "James Kim",
+                "id": 15
+            }
         },
         {
             "id": 16,
             "name": "Mcmillan Powers",
             "age": 24,
-            "childId": 16
+            "student": {
+                "name": "Mejia Herring",
+                "id": 16
+            }
         },
         {
             "id": 17,
             "name": "Dyer Blanchard",
             "age": 21,
-            "childId": 17
+            "student": {
+                "name": "Shannon Albert",
+                "id": 17
+            }
         },
         {
             "id": 18,
             "name": "Padilla Hampton",
             "age": 40,
-            "childId": 18
+            "student": {
+                "name": "Murray Meadows",
+                "id": 18
+            }
         },
         {
             "id": 19,
             "name": "Iva Gibbs",
             "age": 27,
-            "childId": 19
+            "student": {
+                "name": "Morgan Meyers",
+                "id": 19
+            }
         },
         {
             "id": 20,
             "name": "Robles Watson",
             "age": 33,
-            "childId": 20
+            "student": {
+                "name": "Roxanne Hebert",
+                "id": 20
+            }
         }
     ],
     "students": [
@@ -127,140 +187,220 @@
             "name": "Melisa Coleman",
             "age": 16,
             "level": "Seconde",
-            "lessons": "Mathématiques, Anglais, Français"
+            "lessons": "Mathématiques, Anglais, Français",
+            "parent": {
+                "name": "Lucas Guerrero",
+                "id": 1
+            }
         },
         {
             "id": 2,
             "name": "Sweet Boyle",
             "age": 12,
             "level": "Seconde",
-            "lessons": "Technologie, Anglais, Art-plastique"
+            "lessons": "Technologie, Anglais, Art-plastique",
+            "parent": {
+                "name": "Horne Klein",
+                "id": 2
+            }
         },
         {
             "id": 3,
             "name": "Good Sandoval",
             "age": 10,
             "level": "Seconde",
-            "lessons": "Art-plastique, Histoire-géographie, SVT"
+            "lessons": "Art-plastique, Histoire-géographie, SVT",
+            "parent": {
+                "name": "Trina Bradford",
+                "id": 3
+            }
         },
         {
             "id": 4,
             "name": "Wells York",
             "age": 12,
             "level": "Seconde",
-            "lessons": "SVT, Technologie, Anglais"
+            "lessons": "SVT, Technologie, Anglais",
+            "parent": {
+                "name": "Pate Oneil",
+                "id": 4
+            }
         },
         {
             "id": 5,
             "name": "Lolita Huff",
             "age": 16,
             "level": "Terminale",
-            "lessons": "Physique-chimie, Sport, Mathématiques"
+            "lessons": "Physique-chimie, Sport, Mathématiques",
+            "parent": {
+                "name": "Earline Fowler",
+                "id": 5
+            }
         },
         {
             "id": 6,
             "name": "Thompson Hatfield",
             "age": 10,
             "level": "Première",
-            "lessons": "Anglais, SVT, Français"
+            "lessons": "Anglais, SVT, Français",
+            "parent": {
+                "name": "Clay Singleton",
+                "id": 6
+            }
         },
         {
             "id": 7,
             "name": "Lamb Dalton",
             "age": 16,
             "level": "Terminale",
-            "lessons": "Mathématiques, Français, Histoire-géographie"
+            "lessons": "Mathématiques, Français, Histoire-géographie",
+            "parent": {
+                "name": "Dollie Bass",
+                "id": 7
+            }
         },
         {
             "id": 8,
             "name": "Brittney Schwartz",
             "age": 13,
             "level": "Première",
-            "lessons": "SVT, Physique-chimie, Mathématiques"
+            "lessons": "SVT, Physique-chimie, Mathématiques",
+            "parent": {
+                "name": "Casey Slater",
+                "id": 8
+            }
         },
         {
             "id": 9,
             "name": "Nicole Miranda",
             "age": 12,
             "level": "Terminale",
-            "lessons": "Mathématiques, Anglais, Français"
+            "lessons": "Mathématiques, Anglais, Français",
+            "parent": {
+                "name": "Callie Chavez",
+                "id": 9
+            }
         },
         {
             "id": 10,
             "name": "Page Saunders",
             "age": 10,
             "level": "Première",
-            "lessons": "Français, Sport, Histoire-géographie"
+            "lessons": "Français, Sport, Histoire-géographie",
+            "parent": {
+                "name": "Alta Grimes",
+                "id": 10
+            }
         },
         {
             "id": 11,
             "name": "Loretta Baird",
             "age": 13,
             "level": "Terminale",
-            "lessons": "Mathématiques, Sport, Français"
+            "lessons": "Mathématiques, Sport, Français",
+            "parent": {
+                "name": "Eunice Mayer",
+                "id": 11
+            }
         },
         {
             "id": 12,
             "name": "Cecile Sheppard",
             "age": 13,
             "level": "Première",
-            "lessons": "Anglais, Allemand, Art-plastique"
+            "lessons": "Anglais, Allemand, Art-plastique",
+            "parent": {
+                "name": "Hanson Fitzgerald",
+                "id": 12
+            }
         },
         {
             "id": 13,
             "name": "Janna Dawson",
             "age": 10,
             "level": "Seconde",
-            "lessons": "Anglais, Sport, Art-plastique"
+            "lessons": "Anglais, Sport, Art-plastique",
+            "parent": {
+                "name": "Deirdre Hayden",
+                "id": 13
+            }
         },
         {
             "id": 14,
             "name": "Iris Casey",
             "age": 16,
             "level": "Terminale",
-            "lessons": "Allemand, Physique-chimie, Technologie"
+            "lessons": "Allemand, Physique-chimie, Technologie",
+            "parent": {
+                "name": "Mcdowell Rogers",
+                "id": 14
+            }
         },
         {
             "id": 15,
             "name": "James Kim",
             "age": 13,
             "level": "Terminale",
-            "lessons": "SVT, Anglais, Français"
+            "lessons": "SVT, Anglais, Français",
+            "parent": {
+                "name": "Hardin Atkinson",
+                "id": 15
+            }
         },
         {
             "id": 16,
             "name": "Mejia Herring",
             "age": 14,
             "level": "Première",
-            "lessons": "Physique-chimie, Technologie, Mathématiques"
+            "lessons": "Physique-chimie, Technologie, Mathématiques",
+            "parent": {
+                "name": "Mcmillan Powers",
+                "id": 16
+            }
         },
         {
             "id": 17,
             "name": "Shannon Albert",
             "age": 11,
             "level": "Première",
-            "lessons": "Anglais, Allemand, Sport"
+            "lessons": "Anglais, Allemand, Sport",
+            "parent": {
+                "name": "Dyer Blanchard",
+                "id": 17
+            }
         },
         {
             "id": 18,
             "name": "Murray Meadows",
             "age": 14,
             "level": "Première",
-            "lessons": "Art-plastique, Technologie, Physique-chimie"
+            "lessons": "Art-plastique, Technologie, Physique-chimie",
+            "parent": {
+                "name": "Padilla Hampton",
+                "id": 18
+            }
         },
         {
             "id": 19,
             "name": "Morgan Meyers",
             "age": 14,
             "level": "Seconde",
-            "lessons": "Sport, Allemand, Français"
+            "lessons": "Sport, Allemand, Français",
+            "parent": {
+                "name": "Iva Gibbs",
+                "id": 19
+            }
         },
         {
             "id": 20,
             "name": "Roxanne Hebert",
             "age": 12,
             "level": "Seconde",
-            "lessons": "Physique-chimie, Art-plastique, Allemand"
+            "lessons": "Physique-chimie, Art-plastique, Allemand",
+            "parent": {
+                "name": "Robles Watson",
+                "id": 20
+            }
         }
     ],
     "lessons": [
