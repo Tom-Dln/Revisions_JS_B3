@@ -1,5 +1,5 @@
-const db = require('../db.js');
+import db from "../db.js";
 
 const getParent = db.parent;
 
-module.exports = getParent;
+export default getParent;

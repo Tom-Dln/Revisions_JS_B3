@@ -1,7 +1,8 @@
-const getParents = require('../models/parents');
+import getParents from "../models/parents.js";
 
-const parents = (req, res) => {
-  res.render('parents', {parents: getParents});
-}
+const parentsController = (req, res) => {
+  res.render("parents", { parents: getParents });
+};
 
-module.exports = parents;
+// module.exports = parents;
+export default parentsController;

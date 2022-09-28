@@ -1,23 +1,24 @@
 {
-    "name": "mvc-example",
-    "version": "1.0.0",
-    "description": "",
-    "main": "app.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "Revisions_JS_B3"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "chalk": "^5.0.1",
-        "dotenv": "^16.0.2",
-        "express": "^4.18.1",
-        "express-handlebars": "^6.0.6",
-        "morgan": "^1.10.0",
-        "path": "^0.12.7"
-    }
+  "name": "mvc-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Revisions_JS_B3"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7"
+  }
 }

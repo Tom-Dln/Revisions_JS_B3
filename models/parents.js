@@ -1,9 +1,8 @@
-const fs = require('fs');
+import fs from "fs";
 
-let BDD = fs.readFileSync('./BDD.json')
-let parents = JSON.parse(BDD).parents;
-
-// ----- DEBUG -----
-// console.log(parents);
-
-module.exports = parents;
+const getParents = () => {
+  let BDD = fs.readFileSync("./BDD.json");
+  let parents = JSON.parse(BDD).parents;
+  return parents;
+};
+export default getParents;
