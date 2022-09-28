@@ -1,5 +1,6 @@
-import db from "../db.js";
+const fs = require("fs");
 
-const getLessons = db.lessons;
+let BDD = fs.readFileSync("./BDD.json");
+let lessons = JSON.parse(BDD).lessons;
 
 export default getLessons;

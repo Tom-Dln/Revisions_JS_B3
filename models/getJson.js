@@ -3,17 +3,17 @@ const fs = require('fs');
 const { lessons, student } = require('../db');
 
 //get les infos demander dans la BDD.json
-//export 
+//export
 function getInfosAboutJSON(params){
 
-    //recuperation du fichier 
+    //recuperation du fichier
     let BDD = fs.readFileSync('./BDD.json');
 
     //recuperation du contenue du json
     let Listes = JSON.parse(BDD);
 
 
-    //choix de la partit a renvoyer 
+    //choix de la partit a renvoyer
     switch (params) {
         case "parents":
             console.log("parents")

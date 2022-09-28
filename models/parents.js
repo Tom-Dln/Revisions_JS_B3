@@ -1,5 +1,6 @@
-import db from "../db.js";
+const fs = require("fs");
 
-const getParents = db.parents;
+let BDD = fs.readFileSync("./BDD.json");
+let parents = JSON.parse(BDD).parents;
 
 export default getParents;
