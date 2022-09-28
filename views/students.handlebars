@@ -1,5 +1,5 @@
 <h1 class="text-center">
-    Liste des élèves
+    Liste des Élèves
 </h1>
 
 
@@ -10,6 +10,7 @@
             <th scope="col">Age</th>
             <th scope="col">Classe</th>
             <th scope="col">Cours</th>
+            <th scope="col">Parent</th>
             <th scope="col">Détails</th>
         </tr>
     </thead>
@@ -28,8 +29,11 @@
             <td scope="col">
                 {{this.lessons}}
             </td>
+            <td scope="col">
+                <a href="/student/{{this.parent.id}}">{{this.parent.name}}</a>
+            </td>
             <td>
-                <a href="/student/{{this.id}}">Voir</a>
+                <a href="/student/{{this.id}}"><i class="fa-solid fa-arrow-up-right-from-square"></i>Voir</a>
             </td>
         </tr>
         {{/each}}
