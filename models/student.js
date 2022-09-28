@@ -1,5 +1,11 @@
-import db from "../db.js";
+import fs from "fs";
 
-const getStudent = db.student;
+const getStudent = (studentId) => {
+    let BDD = fs.readFileSync("./BDD.json");
+    let students = JSON.parse(BDD).students;
+    let student = students.find(element => element.id == studentId)
+    console.log(student);
+    return student;
+}
 
 export default getStudent;

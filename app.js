@@ -33,24 +33,32 @@ app.use(express.static("public"));
 app.get("/", (req, res) => {
   res.render("home", { title: "Portail de Vie Scolaire" });
 });
-app.get("/student", (req, res) => {
-  res.render("student", { getStudent });
+
+app.get('/student/:id', (req, res) => {
+  let student = getStudent(req.params.id);
+  res.render("student", { student });
 });
+
 app.get("/students", (req, res) => {
   let students = getStudents();
   res.render("students", { students });
 });
-app.get("/parent", (req, res) => {
-  res.render("parent", { getParent });
+
+app.get('/parent/:id', (req, res) => {
+  let parent = getParent(req.params.id);
+  res.render("parent", { parent });
 });
+
 app.get("/parents", (req, res) => {
   let parents = getParents();
   res.render("parents", { parents });
 });
+
 app.get("/lessons", (req, res) => {
   let lessons = getLessons();
   res.render("lessons", { lessons });
 });
+
 // ======================
 
 // Alerte application allumé :

@@ -1,7 +1,7 @@
 import getStudent from "../models/student.js";
 
 const studentController = (req, res) => {
-  res.render("student", { student: getStudent });
+    res.render("student", { student: getStudent });
 };
 
 // module.exports = student;
