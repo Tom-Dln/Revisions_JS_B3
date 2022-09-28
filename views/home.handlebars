@@ -1,1 +1,7 @@
-<h1 class="text-center">Portail de Vie Scolaire</h1>
+<h1 class="text-center mb-5 mt-4">Portail de Vie Scolaire</h1>
+<div class="d-flex justify-content-around">
+    {{> cards lenght=students.length title="Elèves"}}
+{{> cards lenght=parents.length title="Parents"}}
+{{> cards lenght=lessons.length title="Leçons"}}
+</div>
+
