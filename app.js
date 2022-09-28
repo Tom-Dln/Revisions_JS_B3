@@ -12,6 +12,7 @@ import getStudent from "./models/student.js";
 import getStudents from "./models/students.js";
 import getParent from "./models/parent.js";
 import getParents from "./models/parents.js";
+import getLessons from "./models/lessons.js";
 // =======================
 
 const app = express();
@@ -36,13 +37,19 @@ app.get("/student", (req, res) => {
   res.render("student", { getStudent });
 });
 app.get("/students", (req, res) => {
-  res.render("students", { getStudents });
+  let students = getStudents();
+  res.render("students", { students });
 });
 app.get("/parent", (req, res) => {
   res.render("parent", { getParent });
 });
 app.get("/parents", (req, res) => {
-  res.render("parents", { getParents });
+  let parents = getParents();
+  res.render("parents", { parents });
+});
+app.get("/lessons", (req, res) => {
+  let lessons = getLessons();
+  res.render("lessons", { lessons });
 });
 // ======================
 
