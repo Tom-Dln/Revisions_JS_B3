@@ -1,5 +1,9 @@
-const db = require('../db.js');
+const fs = require('fs');
 
-const getStudents = db.students;
+let BDD = fs.readFileSync('./BDD.json')
+let students = JSON.parse(BDD).students;
 
-module.exports = getStudents;
+// ----- DEBUG -----
+// console.log(students);
+
+module.exports = students;

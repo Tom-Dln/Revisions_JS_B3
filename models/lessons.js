@@ -1,5 +1,9 @@
-const db = require('../db.js');
+const fs = require('fs');
 
-const getLessons = db.lessons;
+let BDD = fs.readFileSync('./BDD.json')
+let lessons = JSON.parse(BDD).lessons;
 
-module.exports = getLessons;
+// ----- DEBUG -----
+// console.log(lessons);
+
+module.exports = lessons;
