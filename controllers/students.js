@@ -1,7 +1,8 @@
-const getStudents = require('../models/students');
+import getStudents from "../models/students.js";
 
-const students = (req, res) => {
-  res.render('students', {students: getStudents});
-}
+const studentsController = (req, res) => {
+  res.render("students", { students: getStudents });
+};
 
-module.exports = students;
+// module.exports = students;
+export default studentsController;

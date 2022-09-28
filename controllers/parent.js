@@ -1,7 +1,8 @@
-const getParent = require('../models/parent');
+import getParent from "../models/parent.js";
 
-const parent = (req, res) => {
-  res.render('parent', {parent: getParent});
-}
+const parentController = (req, res) => {
+  res.render("parent", { parent: getParent });
+};
 
-module.exports = parent;
+// module.exports = parent;
+export default parentController;
