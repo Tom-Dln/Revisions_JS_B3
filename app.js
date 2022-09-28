@@ -31,46 +31,50 @@ app.use(express.static("public"));
 // Système de secours :
 // =======================
 app.get("/", (req, res) => {
-    res.render("home", { title: "Portail de Vie Scolaire" });
+  res.render("home", {
+    title: "Portail de Vie Scolaire",
+    students: getStudents(),
+    parents: getParents(),
+    lessons: getLessons(),
+  });
 });
-
-app.get('/student/:id', (req, res) => {
-    res.render("student", { student: getStudent(req.params.id) });
+app.get("/student/:id", (req, res) => {
+  res.render("student", { student: getStudent(req.params.id) });
 });
 
 app.get("/students", (req, res) => {
-    res.render("students", { students: getStudents() });
+  res.render("students", { students: getStudents() });
 });
 
-app.get('/parent/:id', (req, res) => {
-    res.render("parent", { parent: getParent(req.params.id) });
+app.get("/parent/:id", (req, res) => {
+  res.render("parent", { parent: getParent(req.params.id) });
 });
 
 app.get("/parents", (req, res) => {
-    res.render("parents", { parents: getParents() });
+  res.render("parents", { parents: getParents() });
 });
 
 app.get("/lessons", (req, res) => {
-    res.render("lessons", { lessons: getLessons() });
+  res.render("lessons", { lessons: getLessons() });
 });
 
 // ======================
 
 // Alerte application allumé :
 app.listen(process.env.PORT, (err) => {
-    // Afficher une erreur :
-    if (err) {
-        console.log(
-            chalk.hex("#FFF").bgHex("#DC143C").bold(`Erreur pendant le démarrage !`)
-        );
-        console.log(chalk.red(err));
-    } else {
-        // Afficher la réussite du démarrage :
-        console.log(
-            chalk
-                .hex("#FFFFFF")
-                .bgHex("#6B8E23")
-                .bold(`Accédez à l'application : http://localhost:${process.env.PORT}`)
-        );
-    }
+  // Afficher une erreur :
+  if (err) {
+    console.log(
+      chalk.hex("#FFF").bgHex("#DC143C").bold(`Erreur pendant le démarrage !`)
+    );
+    console.log(chalk.red(err));
+  } else {
+    // Afficher la réussite du démarrage :
+    console.log(
+      chalk
+        .hex("#FFFFFF")
+        .bgHex("#6B8E23")
+        .bold(`Accédez à l'application : http://localhost:${process.env.PORT}`)
+    );
+  }
 });
