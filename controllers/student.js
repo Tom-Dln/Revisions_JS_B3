@@ -1,13 +1,8 @@
-// const getStudent = require('../models/student');
-const getAStudent = require('../models/getJson');
+import getStudent from "../models/student.js";
 
+const studentController = (req, res) => {
+  res.render("student", { student: getStudent });
+};
 
-const student = (req, res) => {
-  the_student = getAStudent.find(element => element.id == 11);
-  console.log(the_student);
-  res.render('student', {the_student: the_student});
-}
-
-
-
-module.exports = student;
+// module.exports = student;
+export default studentController;
