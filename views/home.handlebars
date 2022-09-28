@@ -1,6 +1,7 @@
-<h1 class="text-center mb-5">Portail de Vie Scolaire</h1>
+<h1 class="text-center mb-5 my-5">Portail de Vie Scolaire</h1>
+
 <div class="d-flex justify-content-around">
     {{> cards lenght=students.length title="Elèves" icon="fa-solid fa-graduation-cap" link="/students" name="élèves"}}
     {{> cards lenght=parents.length title="Parents" icon="fa-solid fa-user" link="/parents" name="Parents"}}
-    {{> cards lenght=lessons.length title="Leçons"  icon="fa-solid fa-book" link="/lessons" name="Leçons"}}
+    {{> cards lenght=lessons.length title="Leçons" icon="fa-solid fa-book" link="/lessons" name="Leçons"}}
 </div>
