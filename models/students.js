@@ -4,6 +4,6 @@ let BDD = fs.readFileSync('./BDD.json')
 let students = JSON.parse(BDD).students;
 
 // ----- DEBUG -----
-// console.log(students);
+console.log(students);
 
 module.exports = students;

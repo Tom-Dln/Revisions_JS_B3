@@ -1,14 +1,6 @@
-<h1>
-  List des élèves
+<h1 class="text-center">
+  Liste des élèves
 </h1>
-
-<ul>
-  {{#each students}}
-  <li>
-    {{this}}
-  </li>
-  {{/each}}
-</ul>
 
 
 <table class="table">
@@ -17,15 +9,25 @@
       <th scope="col">Prénom/Nom</th>
       <th scope="col">Age</th>
       <th scope="col">Classe</th>
+      <th scope="col">Redirection</th>
     </tr>
   </thead>
   <tbody>
+    {{#each students}}
     <tr>
-      {{#each child.name}}
-      <th scope="col">
-        {{this}}
-      </th>
-      {{/each}}
+      <td scope="col">
+        {{this.name}}
+      </td>
+      <td scope="col">
+        {{this.age}} ans
+      </td>
+      <td scope="col">
+        {{this.level}}
+      </td>
+      <td>
+      <a href="/student/{{this.id}}">Redirection</a>
+      </td>
     </tr>
+    {{/each}}
   </tbody>
 </table>
