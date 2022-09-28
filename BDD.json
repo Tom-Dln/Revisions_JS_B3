@@ -266,61 +266,61 @@
     "lessons": [
         {
             "id": 1,
-            "name": "cour techno",
+            "name": "Techno",
             "heure": "heure",
             "teacherId": 1
         },
         {
             "id": 2,
-            "name": "cour techno",
+            "name": "Histoire-géographie",
             "heure": "heure",
             "teacherId": 2
         },
         {
             "id": 3,
-            "name": "cour techno",
+            "name": "Mathématiques",
             "heure": "heure",
             "teacherId": 3
         },
         {
             "id": 4,
-            "name": "cour techno",
+            "name": "Anglais",
             "heure": "heure",
             "teacherId": 4
         },
         {
             "id": 5,
-            "name": "cour techno",
+            "name": "Physique-chimie",
             "heure": "heure",
             "teacherId": 5
         },
         {
             "id": 6,
-            "name": "cour techno",
+            "name": "Sport",
             "heure": "heure",
             "teacherId": 6
         },
         {
             "id": 7,
-            "name": "cour techno",
+            "name": "Français",
             "heure": "heure",
             "teacherId": 7
         },
         {
             "id": 8,
-            "name": "cour techno",
+            "name": "Art-plastique",
             "heure": "heure",
             "teacherId": 8
         },
         {
             "id": 9,
-            "name": "cour techno",
+            "name": "Allemand",
             "heure": "heure",
             "teacherId": 9
         },
         {
             "id": 10,
-            "name": "cour techno",
+            "name": "SVT",
             "heure": "heure",
             "teacherId": 10
         }

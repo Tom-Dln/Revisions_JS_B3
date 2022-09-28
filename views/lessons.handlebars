@@ -1,11 +1,21 @@
-<h1>
-  Lessons view
+<h1 class="text-center">
+  Liste des Leçons
 </h1>
 
-<ul>
-  {{#each lessons}}
-    <li>
-      {{this}}
-    </li>
-  {{/each}}
-</ul>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Matière</th>
+    </tr>
+  </thead>
+  <tbody>
+      {{#each lessons}}
+    <tr>
+        <td scope="col">
+          {{this.name}}
+        </td>
+    </tr>
+      {{/each}}
+  </tbody>
+</table>
